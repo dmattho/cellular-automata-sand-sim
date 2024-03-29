@@ -18,7 +18,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 screen_color = pygame.Color(156,188,187)
 sand_color = pygame.Color(163,147,130)
 
-#Call world Class
+#Call world Classks
 world = World(screen_width,screen_height, screen)
 
 
@@ -34,7 +34,7 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-            
+
     if pygame.mouse.get_pressed()[0] == 1:
         world.create_pix(current_mouse_pos)
             
